@@ -14,7 +14,7 @@ import DonateProgress from "./DonateProgress";
 import { Label } from "@features/label";
 import ReactCardFlip from "react-card-flip";
 import { useTheme, alpha } from "@mui/material/styles";
-const img = "/static/images/avatar.png";
+const img = "/static/images/opsci-pfp.png";
 
 function DonateCard() {
   const theme = useTheme();
@@ -55,7 +55,7 @@ function DonateCard() {
           </Stack>
           <CardMedia
             sx={{ mt: 2, height: 300, mx: "auto" }}
-            image="/static/icons/commons.svg"
+            image="/static/images/nft-verse.png"
           />
           <Typography
             gutterBottom
@@ -68,7 +68,7 @@ function DonateCard() {
           <Typography
             color={(theme) => theme.palette.grey[500]}
             fontFamily="'Exo 2'">
-            OpSci Society is an autonomous scientific community that aims to utilize metrics derived from activity within DeSci dApps and off-chain academic web services to mint Impact Certificate Non-Fungible Tokens (IC-NFTs) that track impact. 
+            Short description of this card
           </Typography>
           <Stack
             direction="row"
@@ -257,7 +257,7 @@ function DonateCard() {
             fontFamily="'Exo 2'"
             variant="h3"
             mt={1}>
-            Fellowship Project
+            Opsci Society
           </Typography>
           <Stack direction="row" spacing={1} alignItems="center" mt={0.6}>
             {/* <Label variant="filled" className="join-label">
@@ -303,7 +303,7 @@ function DonateCard() {
                     fontFamily="'Exo 2'"
                     color="common.black"
                     variant="h3">
-                    25%
+                    50%
                   </Typography>
                 </Stack>
               </Box>
@@ -339,7 +339,7 @@ function DonateCard() {
                   fontFamily="'Exo 2'"
                   color="common.black"
                   variant="h3">
-                  10 ETH
+                  45 ETH
                 </Typography>
               </Box>
 

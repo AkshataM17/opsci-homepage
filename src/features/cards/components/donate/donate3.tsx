@@ -14,7 +14,7 @@ import DonateProgress from "./DonateProgress";
 import { Label } from "@features/label";
 import ReactCardFlip from "react-card-flip";
 import { useTheme, alpha } from "@mui/material/styles";
-const img = "/static/images/avatar.png";
+const img = "/static/images/avatar1.png";
 
 function DonateCard3() {
   const theme = useTheme();
@@ -46,11 +46,11 @@ function DonateCard3() {
                 fontWeight={500}
                 fontFamily="'Exo 2'"
                 variant="h4">
-                OpSci.eth
+                ricardo18
               </Typography>
             </Stack>
             <Label variant="filled" className="label">
-              0x2345
+              0x4567
             </Label>
           </Stack>
           <CardMedia
@@ -63,12 +63,12 @@ function DonateCard3() {
             fontFamily="'Exo 2'"
             variant="h3"
             mt={2}>
-            OpSci Society
+            Commons Badge
           </Typography>
           <Typography
             color={(theme) => theme.palette.grey[500]}
             fontFamily="'Exo 2'">
-            OpSci Society is an autonomous scientific community that aims to utilize metrics derived from activity within DeSci dApps and off-chain academic web services to mint Impact Certificate Non-Fungible Tokens (IC-NFTs) that track impact. 
+            Short description of card
           </Typography>
           <Stack
             direction="row"
@@ -171,10 +171,10 @@ function DonateCard3() {
                 fontWeight={500}
                 fontFamily="'Exo 2'"
                 variant="h4">
-                opsci society
+                ricardo
               </Typography>
               <Typography color="text.secondary" fontWeight={500}>
-                @opscisociety
+                @ricardo18
               </Typography>
             </Stack>
           </Stack>
@@ -257,7 +257,7 @@ function DonateCard3() {
             fontFamily="'Exo 2'"
             variant="h3"
             mt={1}>
-            Fellowship Project
+            Opsci Commons
           </Typography>
           <Stack direction="row" spacing={1} alignItems="center" mt={0.6}>
             {/* <Label variant="filled" className="join-label">

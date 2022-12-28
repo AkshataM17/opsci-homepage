@@ -1,7 +1,7 @@
 import React from "react";
 import DonateStyled from "./overrides/donateStyle";
 import { Container, Box, Typography, Button, Stack } from "@mui/material";
-import { DonateCard } from "@features/cards";
+import { DonateCard, DonateCard2, DonateCard3 } from "@features/cards";
 import Slider from "react-slick";
 import useWindowSize from "@hooks/windowResize";
 
@@ -100,11 +100,21 @@ function Donate() {
       />
       <Box className="slider-container">
         <Slider {...settings}>
-          {Array.from({ length: 6 }).map((_, idx) => (
+          {Array.from({ length: 1 }).map((_, idx) => (
             <Box px={1} key={idx}>
               <DonateCard />
               {/* <DonateCard1 />
               <DonateCard2 /> */}
+            </Box>
+          ))}
+          {Array.from({ length: 1 }).map((_, idx) => (
+            <Box px={1} key={idx}>
+              <DonateCard2 /> 
+            </Box>
+          ))}
+          {Array.from({ length: 1 }).map((_, idx) => (
+            <Box px={1} key={idx}>
+              <DonateCard3 /> 
             </Box>
           ))}
         </Slider>

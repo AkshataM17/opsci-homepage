@@ -46,16 +46,16 @@ function DonateCard2() {
                 fontWeight={500}
                 fontFamily="'Exo 2'"
                 variant="h4">
-                OpSci.eth
+                hodgkinx
               </Typography>
             </Stack>
             <Label variant="filled" className="label">
-              0x2345
+              0x3456
             </Label>
           </Stack>
           <CardMedia
             sx={{ mt: 2, height: 300, mx: "auto" }}
-            image="/static/icons/commons.svg"
+            image="/static/images/fellowx.png"
           />
           <Typography
             gutterBottom
@@ -63,12 +63,12 @@ function DonateCard2() {
             fontFamily="'Exo 2'"
             variant="h3"
             mt={2}>
-            OpSci Society
+            Fellowship Project
           </Typography>
           <Typography
             color={(theme) => theme.palette.grey[500]}
             fontFamily="'Exo 2'">
-            OpSci Society is an autonomous scientific community that aims to utilize metrics derived from activity within DeSci dApps and off-chain academic web services to mint Impact Certificate Non-Fungible Tokens (IC-NFTs) that track impact. 
+            Short description of card
           </Typography>
           <Stack
             direction="row"
@@ -120,7 +120,7 @@ function DonateCard2() {
                   fontFamily="'Exo 2'"
                   color="common.black"
                   variant="h3">
-                  25%
+                  50%
                 </Typography>
               </Stack>
             </Box>
@@ -171,10 +171,10 @@ function DonateCard2() {
                 fontWeight={500}
                 fontFamily="'Exo 2'"
                 variant="h4">
-                opsci society
+                Hodgkin
               </Typography>
               <Typography color="text.secondary" fontWeight={500}>
-                @opscisociety
+                @hodgkinx
               </Typography>
             </Stack>
           </Stack>
